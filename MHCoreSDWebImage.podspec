@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHCoreSDWebImage"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "MHCoreSDWebImage."
 
   s.description  = "二次封装SDWWebImage"
 
-  s.homepage     = "https://coding.net/u/hengyang_King/p/MHCoreSDWebImage/git"
+  s.homepage     = "https://github.com/hengyangKing/MHCoreSDWebImage"
 
 
   s.license      = "MIT"
@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://git.coding.net/hengyang_King/MHCoreSDWebImage.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hengyangKing/MHCoreSDWebImage.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
