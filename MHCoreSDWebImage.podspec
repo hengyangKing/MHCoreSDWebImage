@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHCoreSDWebImage"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "MHCoreSDWebImage."
 
   s.description  = "二次封装SDWWebImage"
@@ -75,6 +75,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.resources    = 'Classes/CoreSDWebImage.bundle' 
-  s.dependency "SDWebImage"
+  s.dependency 'SDWebImage', '~>3.8'
 
 end
