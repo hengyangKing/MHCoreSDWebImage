@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+ReMake.h"
+#import "UIImage+MHBundleImage.h"
 
 @implementation UIImage (ReMake)
 
@@ -38,16 +39,15 @@
 /*
  *  生成一个默认的占位图片：bundle默认图片
  */
-+(UIImage *)blackBGphImageWithSize:(CGSize)fullSize zoom:(CGFloat)zoom{
-        
-    return [[UIImage imageNamed:@"CoreSDWebImage.bundle/empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
++(UIImage *)blackBGphImageWithSize:(CGSize)fullSize zoom:(CGFloat)zoom
+{
+    return [[UIImage getBundleImageWithName:@"empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
 }
 
 
 +(UIImage *)whiteBGphImageWithSize:(CGSize )fullSize zoom:(CGFloat )zoom
 {
-    
-    return [[UIImage imageNamed:@"CoreSDWebImage.bundle/black_empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
+    return [[UIImage getBundleImageWithName:@"black_empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
 }
 
 
