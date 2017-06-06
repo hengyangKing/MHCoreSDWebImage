@@ -74,7 +74,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.resources    = 'Classes/CoreSDWebImage.bundle' 
   s.dependency 'SDWebImage', '~>3.8'
 
 end
