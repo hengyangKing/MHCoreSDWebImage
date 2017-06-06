@@ -41,13 +41,13 @@
  */
 +(UIImage *)blackBGphImageWithSize:(CGSize)fullSize zoom:(CGFloat)zoom
 {
-    return [[UIImage getBundleImageWithName:@"empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
+    return [[UIImage getBundleImageWithName:@"empty_picture" andBundleName:@"CoreSDWebImage"] remakeImageWithFullSize:fullSize zoom:zoom];
 }
 
 
 +(UIImage *)whiteBGphImageWithSize:(CGSize )fullSize zoom:(CGFloat )zoom
 {
-    return [[UIImage getBundleImageWithName:@"black_empty_picture"] remakeImageWithFullSize:fullSize zoom:zoom];
+    return [[UIImage getBundleImageWithName:@"black_empty_picture" andBundleName:@"CoreSDWebImage"] remakeImageWithFullSize:fullSize zoom:zoom];
 }
 
 
