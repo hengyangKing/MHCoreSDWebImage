@@ -1,0 +1,28 @@
+{
+  "name": "MHCoreSDWebImage",
+  "version": "0.0.7",
+  "summary": "MHCoreSDWebImage.",
+  "description": "二次封装SDWWebImage",
+  "homepage": "https://github.com/hengyangKing/MHCoreSDWebImage",
+  "license": "MIT",
+  "authors": {
+    "hengyangKing": "hengyangKing.yeah.net"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/hengyangKing/MHCoreSDWebImage.git",
+    "tag": "0.0.7"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "resources": "Classes/CoreSDWebImage.bundle",
+  "dependencies": {
+    "SDWebImage": [
+      "~>3.8"
+    ]
+  }
+}

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHCoreSDWebImage"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "MHCoreSDWebImage."
 
   s.description  = "二次封装SDWWebImage"
@@ -76,6 +76,5 @@ Pod::Spec.new do |s|
 
   s.resources    = 'Classes/CoreSDWebImage.bundle' 
   s.dependency 'SDWebImage', '~>3.8'
-  s.dependency 'KingBaseCategory/UIImage+'
 
 end

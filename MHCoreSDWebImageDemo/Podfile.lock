@@ -1,0 +1,21 @@
+PODS:
+  - MHCoreSDWebImage (0.0.7):
+    - SDWebImage (~> 3.8)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - MHCoreSDWebImage (from `../`)
+
+EXTERNAL SOURCES:
+  MHCoreSDWebImage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MHCoreSDWebImage: 33797904defd1ab43a1aa693157898c842eed397
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 7217fccaeb023fd0390be32f657c53fea1b992bc
+
+COCOAPODS: 1.1.1
