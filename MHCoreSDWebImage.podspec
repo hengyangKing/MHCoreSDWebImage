@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MHCoreSDWebImage"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "MHCoreSDWebImage."
 
   s.description  = "二次封装SDWWebImage"
